@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.*
+!.env.example
+uploads/wallpapers/*
+!uploads/wallpapers/.gitkeep
+*.log
+
+# Dados do PostgreSQL embutido
+.pgdata
